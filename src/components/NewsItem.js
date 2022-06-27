@@ -7,7 +7,9 @@ export class NewsItem extends Component {
     return (
     <div className='my-3 mx-1'>
         <div className="card">
-        <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left: '90%', zIndex:'1'}}>{source}</span>
+          <div style ={{display:'flex', justifyContent:'flex-end', position:'absolute', right: 0}}>
+        <span className="badge rounded-pill bg-danger">{source}</span>
+        </div>
             <img src={imageUrl?imageUrl:"https://cricketaddictor.com/wp-content/uploads/2022/06/Indian-Cricket-Team-1024x768.jpeg"} className="card-img-top" height="270px" alt="..."/>
             <div className="card-body">
             <h5 className="card-title">{title}</h5>
