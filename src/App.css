@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  background-color: #edf2f4;
+}
+
+.badge{
+  background-color: #2a9d8f;
+}
+
+.btn{
+  background-color: #a2d2ff;
+  color: black;
+}
+
+.btn:hover{
+  background-color: #bde0fe;
+}
+
+.navbar{
+  background-color: #8d99ae;
+  color: black;
+}
+
